@@ -1,16 +1,5 @@
-/**
-* Template Name: Nova
-* Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
-
+/*Logo*/
 .logo {
     text-decoration: none; /* Removes underline for the link */
     color: inherit; /* Ensures it inherits the text color */
@@ -23,7 +12,7 @@
 }
 
 .tagline {
-    font-size: 1rem; /* Adjust as needed */
+    font-size: 8rem; /* Adjust as needed */
     margin-top: 8px; /* Add spacing between logo and tagline */
     color: #56b8e6; /* Subtle gray for tagline */
     font-style: bold; /* Optional styling for tagline */
