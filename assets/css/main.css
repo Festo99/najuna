@@ -34,37 +34,6 @@
 }
 
 
-/*footer*/
-
-/* Footer Styles */
-.footer {
-  background-color: #333; /* Dark background for footer */
-  color: #fff; /* White text */
-  padding: 20px 0;
-}
-
-.footer-logo {
-  text-decoration: none;
-  margin-bottom: 10px;
-}
-
-.footer-logo-img {
-  width: 80px; /* Smaller size for footer logo */
-  height: auto;
-  margin-right: 10px; /* Space between logo and site name */
-}
-
-.footer-site-name {
-  font-size: 1.2rem; /* Adjusted size */
-  font-weight: 600;
-  color: #fff;
-}
-
-.footer-text {
-  font-size: 0.9rem; /* Smaller text for copyright */
-  margin-top: 10px;
-  color: #ccc; /* Lighter color for less emphasis */
-}
 
 
 
