@@ -1,22 +1,38 @@
 
 /*Logo*/
 .logo {
-    text-decoration: none; /* Removes underline for the link */
-    color: inherit; /* Ensures it inherits the text color */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 .logo-img {
-    width: 100%;
-    max-width: 400px;
-    height: 200px;
+  width: 60px;
+  height: auto;
+  margin-right: 10px;
 }
 
 .tagline {
-    font-size: 2rem; /* Adjust as needed */
-    margin-top: 8px; /* Add spacing between logo and tagline */
-    color: #56b8e6; /* Subtle gray for tagline */
-    font-style: bold; /* Optional styling for tagline */
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
 }
+
+@media (max-width: 768px) {
+  .logo-img {
+    width: 40px;
+  }
+  .tagline {
+    font-size: 1rem;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
