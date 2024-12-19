@@ -33,9 +33,28 @@
   align-items: center;
 }
 
+/*contacts section*/
 
+.card {
+  border: none; /* Removes default border */
+  border-radius: 10px; /* Adds rounded corners */
+  transition: transform 0.3s ease;
+}
 
+.card:hover {
+  transform: translateY(-5px); /* Adds a hover effect */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
 
+.card-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  font-size: 0.9rem;
+  color: #555555;
+}
 
 /* Fonts */
 :root {
